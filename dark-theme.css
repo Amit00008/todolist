@@ -31,6 +31,31 @@ body {
     transform: scale(1.05);
 }
 
+.github {
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+   
+
+
+#github {
+    padding: 10px 15px;
+    border: none;
+    background: #11c729;
+    color: #e8e8e8;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#github:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    transition: background 0.3s, transform 0.2s;
+}
+
 .container {
     background: #1e1e1e;
     padding: 30px;
